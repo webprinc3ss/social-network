@@ -4,6 +4,14 @@ const userController = {
     // get all users
     getAllUsers(req, res) {
         User.find({})
+            .populate({
+                path: 'thoughts',
+                select: '-__v'
+            })
+            .populate({
+                path: 'friends',
+                select: '-__v'
+            })
             .then(dbUserData => res.json(dbUserData))
             .catch(err => {
                 console.log(err);
@@ -13,7 +21,7 @@ const userController = {
 
     // get one user by id
     getUserById({ params }, res) {
-        Pizza.findOne({ _id: params.id })
+        User.findOne({ _id: params.id })
             .then(dbUserData => res.json(dbUserData))
             .catch(err => {
                 console.log(err);
