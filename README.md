@@ -1,4 +1,4 @@
-# social-network
+# Social Network
 
    ![Language](https://img.shields.io/badge/Lang-JavaScript-yellow)
 
