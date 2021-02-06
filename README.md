@@ -17,7 +17,7 @@ This app uses Express.js for routing, a MongoDB database, the Mongoose ODM, and 
 
 [Insert here]
 
-  [Github Pages](https://github.com/webprinc3ss/e-commerce-back-end)
+  [Github Pages](https://github.com/webprinc3ss/social-network)
 
   [Link to Demo](https://drive.google.com/file/d/150fot3lkTtuUIntXz6A6Bh_7sP0vW6gg/view)
 
