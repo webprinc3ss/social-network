@@ -11,9 +11,7 @@
 
 API for a social network web application where users can share their thoughts, react to friends' thoughts, and create a friends list.
 
-Using the Mongoose ORM, create models and routes for the RESTful api end-points for an already functional Express.js API.  
-
-This app uses Express.js for routing, a MongoDB database, the Mongoose ODM, and the Moment.js package to format time. 
+Using Express.js and Mongoose ODM, create models in MongoDB and routes for the RESTful API end-points.  Use the Moment.js npm package to format time. 
 
 [Insert here]
 
