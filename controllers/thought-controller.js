@@ -75,21 +75,17 @@ const thoughtController = {
                         .status(404)
                         .json({ message: 'No thought with this id.' })
                 }
-                // Remove Thought
-                // localhost:3001/api/thoughts/601edf9498dc4b8de026a62a
-                // {"userId": "601b93c10f328c332840b03a"}
-                // return User.findOneAndUpdate(
-                //     { _id: body.userId },
-                //     { $pull: { thoughts: params.id } },
-                //     { new: true, runValidators: true }
-                // ).select('-__v');
+                return User.findOneAndUpdate(
+                    { username: dbThoughtData.username },
+                    { $pull: { thoughts: dbThoughtData._id } },
+                )
             })
             .then((dbUserData) => {
                 if (!dbUserData) {
                     res.status(404).json({ message: 'No user found with this id' });
                     return;
                 }
-                res.json(dbUserData);
+                res.sendStatus(204); //successful, but not sending anything back
             })
             .catch((err) => res.json(err));
     },

@@ -5,7 +5,7 @@ const ReactionSchema = new Schema(
     {
         // set thought id to avoid confusion with parent thought _id
         reactionId: {
-            type: Schema.Types.ObjectId,
+            type: Types.ObjectId,
             default: () => new Types.ObjectId()
         },
         reactionBody: {
@@ -21,14 +21,15 @@ const ReactionSchema = new Schema(
         createdAt: {
             type: Date,
             default: Date.now,
-            get: (createdAtVal) =>
-                moment(createdAtVal).format("MMM DD, YYYY [at] hh:mm a"),
+            get: (date) =>
+                moment(date).format("MMM DD, YYYY [at] hh:mm a"),
         }
     },
     {
         toJSON: {
             getters: true
-        }
+        },
+        _id: false
     }
 );
 
