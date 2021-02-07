@@ -21,7 +21,7 @@ Using Express.js and Mongoose ODM, create models in MongoDB and routes for the R
 
   [Code Walk-through](https://drive.google.com/file/d/16ikCWBb915mE4cbUZr08qXcjWLlnG2fG/view)
 
-  [API Demo in Insomnia](https://drive.google.com/file/d/16ikCWBb915mE4cbUZr08qXcjWLlnG2fG/view)
+  [API Demo in Insomnia](https://drive.google.com/file/d/14ECbAWDzeo3OGpyjSz64bzCi_iPtm0-i/view)
 
   ## Installation Instructions
 
