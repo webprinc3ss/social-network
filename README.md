@@ -19,7 +19,9 @@ Using Express.js and Mongoose ODM, create models in MongoDB and routes for the R
 
   [Github Pages](https://github.com/webprinc3ss/social-network)
 
-  [Link to Demo](https://drive.google.com/file/d/150fot3lkTtuUIntXz6A6Bh_7sP0vW6gg/view)
+  [Code Walk-through](https://drive.google.com/file/d/16ikCWBb915mE4cbUZr08qXcjWLlnG2fG/view)
+
+  [API Demo in Insomnia](https://drive.google.com/file/d/16ikCWBb915mE4cbUZr08qXcjWLlnG2fG/view)
 
   ## Installation Instructions
 
