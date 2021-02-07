@@ -9,6 +9,8 @@
   4. [Tests](#tests)
   5. [Questions](#questions)
 
+  ## Description
+
 API for a social network web application where users can share their thoughts, react to friends' thoughts, and create a friends list.
 
 Using Express.js and Mongoose ODM, create models in MongoDB and routes for the RESTful API end-points.  Use the Moment.js npm package to format time. 
